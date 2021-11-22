@@ -1,3 +1,17 @@
+logo = """/~~~~~~~~~~~~~~~~~~~/|
+       /              /######/ / |
+      /              /______/ /  |
+     ========================= /||
+     |_______________________|/ ||
+      |  \****/     \__,,__/    ||
+      |===\**/       __,,__     ||    
+      |______________\====/%____||
+      |   ___        /~~~~\ %  / |
+     _|  |===|===   /      \%_/  |
+    | |  |###|     |########| | /
+    |____\###/______\######/__|/
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~"""
+
 MENU = {
     "espresso": {
         "ingredients": {
@@ -76,6 +90,7 @@ is_machine_on = True
 
 while is_machine_on:
     # prompt user for order
+    print(logo)
     choice = input("What would you like to have ? (espresso/latte/cappuccino) : ")
     # turn of the machine if needed
     if choice == "off":
